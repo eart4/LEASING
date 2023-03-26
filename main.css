@@ -1,4 +1,5 @@
-html{
-    height: 100%;
-    overflow: hidden;
+.container{
+    background-color: #ccc;
+    min-width: 1200px;
+    margin: 0 auto;
 }
