@@ -1,5 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+html{
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Inter';
+}
 .container{
-    background-color: #ccc;
-    min-width: 1200px;
+    
+    max-width: 1220px;
     margin: 0 auto;
+    padding: 0 10px;
+}
+
+.body{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    color: #151515;
+}
+
+.header{
+    background-color: #151515;
+}
+
+
+
+
+.header__inner{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    justify-content: space-between;
+    align-items: flex-end;
+   
+}
+
+.menu__list{
+    display: flex;
+    gap: 35px;
+}
+
+.menu__list-link{
+    
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+
 }
