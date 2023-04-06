@@ -8,6 +8,7 @@ html{
     box-sizing: inherit;
     margin: 0;
     padding: 0;
+    font-family: 'Inter';
 }
 
 a{
@@ -23,6 +24,7 @@ a{
 }
 
 .body{
+    list-style-type: none;
     font-family: 'Inter';
     font-size: 16px;
     font-weight: 400;
@@ -56,4 +58,21 @@ a{
     text-transform: uppercase;
     font-weight: 700;
 
+}
+
+.footer{
+    background-color: #151515;
+    padding: 50px 0 32px;
+    color: #fff;
+    
+}
+
+.footer__menu{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.footer__menu-title{
+    
 }
