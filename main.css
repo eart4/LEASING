@@ -48,6 +48,7 @@ a{
 }
 
 .menu__list{
+    list-style-type: none;
     display: flex;
     gap: 35px;
 }
@@ -73,6 +74,25 @@ a{
     margin-bottom: 50px;
 }
 
-.footer__menu-title{
-    
+.footer__menu-list{
+    max-width: 250px;
 }
+
+.footer__menu-title{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.footer__menu-item + .footer__menu-item{
+    padding-top: 20px;
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 52px;
+    list-style-type: none; 
+}
+
