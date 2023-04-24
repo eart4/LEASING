@@ -189,6 +189,7 @@ background-position: center;
     background-color: #151515;
     border-radius: 0;
     opacity: 1;
+    margin-bottom: 85px !important;
 }
 
 ul{
@@ -217,6 +218,10 @@ ul{
     margin-bottom: 30px;
 }
 .why-lease__title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
 }
 .why-lease__text {
+    text-align: left;
 }
