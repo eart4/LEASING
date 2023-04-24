@@ -17,6 +17,13 @@ body{
    
 }
 
+.section-title{
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
 *, *::after, *::before{
     box-sizing: inherit;
     margin: 0;
@@ -192,4 +199,24 @@ ul{
     height: 6px;
     background-color: #fff;
 
+}
+
+.why-lease {
+    padding: 150px 0;
+}
+
+
+.why-lease__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    text-align: center;
+}
+
+.why-lease__item-img {
+    margin-bottom: 30px;
+}
+.why-lease__title {
+}
+.why-lease__text {
 }
