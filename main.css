@@ -184,6 +184,10 @@ background-position: center;
     opacity: 1;
 }
 
+ul{
+    list-style-type: none !important;
+}
+
 .swiper-pagination-bullet-active{
     height: 6px;
     background-color: #fff;
