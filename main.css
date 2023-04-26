@@ -225,3 +225,25 @@ ul{
 .why-lease__text {
     text-align: left;
 }
+
+.how-does {
+    padding-bottom: 150px;
+}
+
+.how-does__inner {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.how__does-title {
+    padding-top: 50px;
+    font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+
+}
+.how__does-list {
+    padding: 50px 0 70px;
+}
+.how__does-item {
+}
