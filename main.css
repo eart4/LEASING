@@ -249,7 +249,20 @@ line-height: 29px;
 
 .how__does-item{
     list-style-type: none;
+    width: 270px;
+    position: relative;
+    margin-left: auto;
+    padding-left: 240px;
+    box-sizing: content-box;
+    padding: 19px 0 19px 240px;
+    min-height: 63px;
 }
+
+
+.how__does-item + .how__does-item{
+    margin-top: 40px;
+}
+
 .how__does-item::before{
     counter-increment: myCounter;
     content: counter(myCounter);
@@ -263,4 +276,7 @@ line-height: 29px;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
