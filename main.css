@@ -244,6 +244,18 @@ line-height: 29px;
 }
 .how__does-list {
     padding: 50px 0 70px;
+    counter-reset: myCounter;
 }
-.how__does-item {
+
+.how__does-item{
+    list-style-type: none;
+}
+.how__does-item::before{
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    display: inline-block;
+    background-color: #0066FF;
+    font-size: 48px;
+    font-weight: 700;
+    background-color: #fff;
 }
