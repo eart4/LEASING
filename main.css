@@ -391,3 +391,22 @@ line-height: 29px;
     padding: 13px 61px;
     margin: 0 auto;
 }
+
+
+.blog {
+    padding-bottom: 150px;
+}
+
+.blog__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.blog__item {
+}
+.blog__item-img {
+}
+.blog__item-title {
+}
+.blod__item-link {
+}
