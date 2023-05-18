@@ -447,3 +447,40 @@ line-height: 130%;
     text-align: center;
     display: block;
 }
+
+.choose {
+    padding: 100px 0 150px;
+}
+
+
+
+.tabs__btn {
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.tabs__btn-item {
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+.tabs__content {
+}
+.tabs__content-item {
+}
+.card {
+}
+.card-img {
+}
+.card__title {
+}
+.card__text {
+}
+.card__price {
+}
+.card__link {
+}
