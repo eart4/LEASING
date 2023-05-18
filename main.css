@@ -468,9 +468,16 @@ line-height: 130%;
     background-color: transparent;
     padding: 0;
 }
+
+.tabs__btn-item--active{
+    color: #0066FF;
+}
 .tabs__content {
 }
 .tabs__content-item {
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    gap: 100px 40px;
 }
 .card {
 }
