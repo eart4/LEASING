@@ -525,3 +525,52 @@ line-height: 130%;
     border-top: none;
     padding: 2px 0;
 }
+
+.menu__btn{
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    padding: 0;
+    
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.menu__btn span{
+    height: 2px;
+    background-color: #fff;
+    width: 100%;
+}
+
+
+@media (max-width: 1180px) {
+    .important__list{
+        gap: 30px 20px;
+    }
+
+    .important__item-img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1040px) {
+    .video__content{
+        width: 100%;
+    }
+}
+
+@media (max-width: 860px){
+
+    .why-lease__list{
+        
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .important__list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}   
