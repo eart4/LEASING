@@ -537,6 +537,7 @@ line-height: 130%;
     
     background-color: transparent;
     cursor: pointer;
+    display: none;
 
 }
 
@@ -564,6 +565,40 @@ line-height: 130%;
 }
 
 @media (max-width: 860px){
+    
+    .menu__btn{
+        position: relative;
+        z-index: 10;
+        display: flex;
+    }
+    .logo{
+        position: relative;
+        z-index: 10;
+    }
+    .menu__list{
+        position: absolute;
+        background-color: #151515;
+        flex-direction: column;
+        z-index: 5;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100vh;
+        align-items: center;
+        justify-content: space-evenly;
+        transform: translateY(-100%);
+        transition: .3s ease;
+
+    }
+
+    .menu__list.menu__list--active body{
+        overflow: hidden;
+    }
+
+    .menu__list.menu__list--active{
+        transform: translateY(0%);
+    }
 
     .why-lease__list{
         
@@ -573,4 +608,6 @@ line-height: 130%;
     .important__list{
         grid-template-columns: repeat(2, 1fr);
     }
+
+
 }   
